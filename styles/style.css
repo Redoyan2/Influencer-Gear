@@ -97,3 +97,36 @@ header{
 .product span{
     color: gray;
 }
+.more-product{
+    padding: 0px 20px;
+    text-align: right;
+    color: #E02C6D;
+    font-weight: 700;
+}
+
+/*.............Feature Product Section..........*/
+.feature-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feature-product-image img{
+    margin: 20px;
+}
+.feature-product-details{
+    margin: 20px;
+    padding: 20px 40px;
+}
+.feature-product-details h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+.feature-product-details p{
+    font-size: 15px;
+}
+.feature-product-details button{
+    background-color: #E02C6D;
+    color: white;
+    padding: 5px 20px;
+    border:none;
+}
