@@ -1,0 +1,55 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*.........header..........*/
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 75px 0px;
+}
+.header-name{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(29, 29, 29);
+}
+
+.navbar{
+    display: flex;
+}
+.navbar a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+}
+/*............influencer-section..........*/
+.container{
+    margin: 0px 75px;
+}
+.influencer-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+    justify-content:center;
+    align-items: center;
+}
+.influencer-details h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.influencer-details button{
+    background-color: #E02C6D;
+    color: white;
+    padding: 5px 20px;
+    border:none;
+    border-radius: 50px;
+}
+.influencer-details button i {
+    padding: 5px;
+}
+.influencer-image img{
+    height: 350px;
+    width: 350px;
+    padding-left: 100px;
+    margin-left: 100px;
+}
